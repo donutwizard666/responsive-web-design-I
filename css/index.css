@@ -316,8 +316,8 @@ header nav {
         width: 95%;
     }
 
-    .cta {
-        border-bottom: none;
+    .main-content {
+        border-top: none;
     }
 
 }
