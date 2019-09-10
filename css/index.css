@@ -164,7 +164,8 @@ header .logo {
 .main-content .bottom-content .text-content {
   width: 275px;
   display: inline-block;
-  margin-right: 12px;
+  /* margin-right: 12px; */
+  
 }
 
 .main-content .bottom-content .text-content:last-child {
@@ -283,33 +284,32 @@ header nav {
         flex-direction: column;
         align-items: center;
         font-size: 25px;
-        align-items: center;
+        
     }
 
     .main-content .top-content .text-content {
-        width: 85%;
+        width: 100%;
         margin-right: 0px;
         justify-content: left;
-        padding: 25px;
+        padding: 25px 0px;
     }
 
     .main-content .bottom-content .text-content {
-        width: 85%;
+        width: 100%;
         margin-right: 0px;
         justify-content: left;
-        padding: 25px;
+        padding: 25px 15px;
     }
 
     .contact {
         content: "";
         margin: 0 auto;
         border-top: 4px solid black;
-        padding: 39px 10px 0;
         width: 95%;
+        padding: 25px 0px;
       }
 
     .top-content {
-        content: "";
         margin: 0 auto;
         border-top: 4px solid black;
         padding: 39px 10px 0;
