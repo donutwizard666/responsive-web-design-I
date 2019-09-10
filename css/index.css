@@ -229,11 +229,27 @@ header nav {
 
 .text-content {
     padding: 10px;
+    
+}
+
+.top-content {
+  display: flex;
+}
+
+.bottom-content {
+  display: flex;
 }
 
 .middle-img {
    padding: 15px; 
+   width: 100%;
+
 }
+
+.container {
+  width: 100%;
+}
+
 
 }
 
